@@ -215,7 +215,7 @@ footer {
     gap: 7rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) and (min-width: 320px) {
     body {
         background: #080808;
     }
@@ -236,9 +236,9 @@ footer {
         flex-direction: column-reverse;
         padding: 0px;
         /* gap: 0; */
-        background-image: url(images/dev.png);
+        /* background-image: url(images/dev.png);
         background-repeat: no-repeat;
-        height: 690px;
+        height: 690px; */
     }
 
     .intro-text {
@@ -277,8 +277,8 @@ footer {
         letter-spacing: 0.5px;
     }
 
-    .intro-img {
-        display: none;
+    .dev-img {
+height: 340px;
     }
 
     .intro-btn {

@@ -234,11 +234,16 @@ footer {
 
     .intro {
         flex-direction: column-reverse;
-        padding: 0px;
+        padding: 20px;
         /* gap: 0; */
         /* background-image: url(images/dev.png);
         background-repeat: no-repeat;
         height: 690px; */
+    }
+
+    .intro-img {
+        display: flex;
+        justify-content: center;
     }
 
     .intro-text {
@@ -275,16 +280,18 @@ footer {
         line-height: 150%;
         text-align: center;
         letter-spacing: 0.5px;
+        width: fit-content;
     }
 
     .dev-img {
-height: 340px;
+        height: 320px;
     }
 
     .intro-btn {
         width: 320px;
         height: 44px;
         justify-content: center;
+        margin-left: 1rem;
     }
 
     .about {

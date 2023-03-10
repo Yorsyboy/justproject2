@@ -388,18 +388,15 @@ footer {
     .about-btn {
         padding: 30px;
         gap: 10px;
-
         width: 290px;
     }
 
     .btn1 {
-
         width: 160px;
         height: 44px;
     }
 
     .btn2 {
-
         width: 155px;
         height: 44px;
         font-size: 9px;
